@@ -58,16 +58,24 @@
 		877BA1BA2560E83900567823 /* MemoExample */ = {
 			isa = PBXGroup;
 			children = (
-				877BA1BB2560E83900567823 /* AppDelegate.swift */,
-				877BA1BD2560E83900567823 /* SceneDelegate.swift */,
+				877BA1D32560E85500567823 /* Supporting Files */,
 				877BA1BF2560E83900567823 /* ViewController.swift */,
 				877BA1C12560E83900567823 /* Main.storyboard */,
-				877BA1C72560E83900567823 /* Assets.xcassets */,
-				877BA1C92560E83900567823 /* LaunchScreen.storyboard */,
 				877BA1CC2560E83900567823 /* Info.plist */,
 				877BA1C42560E83900567823 /* MemoExample.xcdatamodeld */,
 			);
 			path = MemoExample;
+			sourceTree = "<group>";
+		};
+		877BA1D32560E85500567823 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				877BA1BB2560E83900567823 /* AppDelegate.swift */,
+				877BA1BD2560E83900567823 /* SceneDelegate.swift */,
+				877BA1C92560E83900567823 /* LaunchScreen.storyboard */,
+				877BA1C72560E83900567823 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +299,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F95C5R6HLY;
 				INFOPLIST_FILE = MemoExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +319,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F95C5R6HLY;
 				INFOPLIST_FILE = MemoExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
