@@ -7,6 +7,7 @@
 
 import Foundation
 
+/*
 class Memo {
     var content: String
     var createdDate: Date
@@ -21,3 +22,4 @@ class Memo {
         Memo(content: "test!")
     ]
 }
+*/
