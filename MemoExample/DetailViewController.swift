@@ -27,6 +27,10 @@ class DetailViewController: UIViewController {
         
         let vc = UIActivityViewController(activityItems: [memo], applicationActivities: nil)
         
+        if let pc = vc.popoverPresentationController {
+            pc.barButtonItem = sender as? UIBarButtonItem
+        }
+        
         present(vc, animated: true, completion: nil)
     }
     
